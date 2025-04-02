@@ -28,14 +28,14 @@ namespace St10436847_PROG6221_Part._1_Chatbot
 
             // Ask for user name
             Console.Write("Enter your name: ");
-            string userName = Console.ReadLine()?.Trim();
+            string name = Console.ReadLine()?.Trim();
 
-            if (string.IsNullOrEmpty(userName))
+            if (string.IsNullOrEmpty(name))
             {
-                userName = "User";
+                name = "User";
             }
 
-            Console.WriteLine($"\nHello, {userName}! How can I assist you today?\n");
+            Console.WriteLine($"\nHello, {name}! How can I assist you today?\n");
 
             // Chatbot loop
             while (true)
