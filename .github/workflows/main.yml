@@ -1,0 +1,23 @@
+name: C# CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Install .NET Framework 4.8 Developer Pack
+      run: |
+        choco install dotnet4.8-devpack
+
+    - name: Build with MSBuild
+      run: dotnet build YourProject.sln
