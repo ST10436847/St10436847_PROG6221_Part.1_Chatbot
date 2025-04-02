@@ -17,7 +17,7 @@ namespace St10436847_PROG6221_Part._1_Chatbot
 
             // Voice greeting
             PlayGreeting();
-
+            Console.WriteLine("New feature added!"); // Example change
             // Display ASCII 
             DisplayAsciiLogo();
 
@@ -134,5 +134,7 @@ namespace St10436847_PROG6221_Part._1_Chatbot
             }
             Console.WriteLine();
         }
+
+
     }
 }
