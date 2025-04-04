@@ -23,7 +23,7 @@ User and Bot Interaction:
     Bot: Goodbye! Stay safe online.
 
 Future improvements:
-To improve comprehension, incorporate natural language processing.
-Save user inquiries and offer data.
-Increase the knowledge base's size
-Make use of WinForms or WPF to add a GUI version.
+- To improve comprehension, incorporate natural language processing.
+- Save user inquiries and offer data.
+- Increase the knowledge base's size
+- Make use of WinForms or WPF to add a GUI version.
